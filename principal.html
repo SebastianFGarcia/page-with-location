@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#Nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+            </ul>
+            <ul>
+                <li class="dropdown"><a>Carlitos</a>
+                    <ul class="dropdown-content">
+                        
+                        <li><a href="index.html">Cerrar sesión</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section id="Nosotros">
+                <h2 class="title">Nosotros</h2>
+                <div class="content-nosotros">
+                    <div class="content-nosotros-img">
+                        <img src="img/img-1.jpg" alt="">
+                    </div>
+                    <div class="content-nosotros-text">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus illum ab vero sunt harum eum amet consequatur, soluta recusandae non dolor reiciendis rem aperiam molestias blanditiis nesciunt distinctio possimus repellendus.
+                        Necessitatibus perferendis nostrum doloribus nemo repellat tempore possimus quos omnis cumque minima voluptates qui sequi, beatae quod eaque voluptatibus ducimus id deserunt consequuntur eos! Quaerat nemo similique amet animi ipsum.
+                        Voluptates voluptatum id reiciendis deserunt praesentium natus sit neque optio debitis! Necessitatibus esse saepe, magni cumque distinctio sequi voluptatem provident? Consequatur placeat eius obcaecati? Dolores quam quos eius dicta numquam.
+                        Sequi, deserunt laborum mollitia dolores animi illo laboriosam at reprehenderit ea quae asperiores dignissimos ipsa nihil vero quis odit aliquam molestiae ratione ut ad est inventore facere velit? Optio, totam!
+                        Earum doloribus provident expedita quisquam, atque amet! Eveniet aspernatur quibusdam enim autem id eius praesentium possimus molestiae, voluptatem eaque nam ut labore dignissimos odio a. Veniam assumenda placeat illum temporibus.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="productos" class="Productos">
+                <h2 class="title">Productos</h2>
+                <div class="content-productos">
+                    <div class="productos-select">
+                        <select name="productos" id="select_producto">
+                            <option value="0">Seleccione un producto</option>
+                            <option value="1">Producto 1</option>
+                            <option value="2">Producto 2</option>
+                            <option value="3">Producto 3</option>
+                            <option value="4">Producto 4</option>
+                            <option value="5">Producto 5</option>
+                        </select>
+                        <button id="seleccionar">Seleccionar</button>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="img/img-2.jpg" alt="">
+                            </div>
+                            <div class="card-text">
+                                <h3>Producto 1</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="img/img-3.jpg" alt="">
+                            </div>
+                            <div class="card-text">
+                                <h3>Producto 2</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="img/img-4.jpg" alt="">
+                            </div>
+                            <div class="card-text">
+                                <h3>Producto 3</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="img/img-5.jpg" alt="">
+                            </div>
+                            <div class="card-text">
+                                <h3>Producto 4</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="img/img-6.jpg" alt="">
+                            </div>
+                            <div class="card-text">
+                                <h3>Producto 5</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-text">
+            <p>Sebastian Fernando Garcia Delgado © 2022 Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <div class="modal modal-close" id="modal" >
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="name-product">Producto 5</h2>
+                <span id="close" class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-img">
+                    <img id="img-product" src="img/img-2.jpg" alt="">
+                </div>
+                <div class="modal-text">
+                    <p id="description-product">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo expedita eos omnis debitis quia quibusdam odit obcaecati fugiat, laborum, nisi magni laudantium suscipit! Voluptatibus adipisci, distinctio repellat veniam vel consequatur?</p>
+                    <button id="cancelar">Cancelar</button>
+                    <button id="comprar">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
